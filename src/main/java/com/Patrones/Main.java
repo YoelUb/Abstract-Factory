@@ -19,6 +19,7 @@ public class Main {
             throw new RuntimeException("Error! Unknown operating system.");
         }
 
+
         // Crear productos a partir de la fábrica
         Button button = factory.createButton();
         CheckBox checkBox = factory.createCheckbox();
